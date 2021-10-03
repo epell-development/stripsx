@@ -1,0 +1,206 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image: url(images/bg-login.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-color: rgb(42, 43, 43);
+}
+
+.strisciaPartenze, .strisciaArrivi, .divisorio {
+    margin-top: 200px;
+}
+
+.strisciaPartenze {
+    width: 767px;
+    background-color: rgb(34, 34, 34);
+    height: 80px;
+    margin: 20px auto;
+    border-radius: 5px;
+    cursor: move;
+    /*border: 1px solid black;*/
+}
+
+.field {
+    border-radius: 0;
+    height: 40px;
+    text-align: center;
+    border: 1px solid black;
+    margin-right: -1mm;
+    background-color: white;
+    text-transform: uppercase;
+    outline: none;
+}
+
+.field2 {
+    border-radius: 0;
+    height: 40px;
+    text-align: center;
+    border: 1px solid black;
+    margin-right: -1mm;
+    background-color: khaki;
+    text-transform: uppercase;
+    outline: none;
+}
+
+
+
+#slotIcaoArpt {
+    
+    position: relative;
+    left: 0px;
+    width: 120px;
+}
+
+#slotFL {
+    position: relative;
+    left: 0px;
+    width: 60px;
+    z-index: 40;
+}
+
+#slotCallsign {
+    position: absolute;
+    height: 80px;
+    width: 180px;
+    margin-left: 0px;
+    font-size: 18px;
+}
+
+#slotVuoto1 {
+    position: relative;
+    left: 180px;
+    width: 60px;
+    margin-inline-start: 0px;
+}
+
+#slotSID {
+    position: relative;
+    left: 179px;
+    width: 180px;
+    z-index: 40;
+}
+
+#slotOrarioEstimato {
+    position: relative;
+    left: 0px;
+    width: 60px;
+    z-index: 40;
+    margin-left: 0px;
+}
+
+#slotPLN {
+    position: relative;
+    left: 180px;
+    width: 180px;
+    z-index: 40;
+}
+
+#slotSquak {
+    position: relative;
+    left: 180px;
+    width: 180px;
+    z-index: 40;
+}
+
+#dragimg{
+    position: absolute;
+    margin-top: 30px;
+    right: 592px;
+    width: 1%;
+    z-index: 2;
+}
+
+.divisorio {
+    width: 767px;
+    background-color: rgba(255, 255, 255, 0.966);
+    height: 15px; /*originale 81*/
+    margin: 20px auto;
+    border-radius: 5px;
+    cursor: move;
+    /*border: 1px solid black;*/
+}
+
+.strisciaArrivi {
+    width: 767px;
+    background-color: rgb(34, 34, 34);
+    height: 80px;
+    margin: 20px auto;
+    border-radius: 5px;
+    cursor: move;
+    /*border: 1px solid black;*/
+}
+
+#slotOrarioArrivo {
+    background-color: khaki;
+    height: 80px;
+    width: 100px;
+}
+
+#slotArrivoCallsign {
+    
+    background-color: khaki;
+    width: 170px;
+    height: 80px;
+
+}
+
+#slotOrarioArrivo {
+    position: relative;
+    top: -1px;
+    left: 0px;
+    width: 100px;
+    height: 80px;
+    margin-inline-start: 0px;
+}
+
+#slotCallsignArrivo {
+    position: relative;
+    left: 0px;
+    width: 190px;
+    height: 80px;
+    margin-inline-start: 0px;
+    font-size: 18px;
+
+}
+
+#slotVuoto3 {
+    position: relative;
+    top: -21px;
+    left: 0px;
+    height: 40px;
+    width: 60px;
+    margin-inline-start: 0px;
+}
+
+#slotVuoto4 {
+    position: relative;
+    top: -61px;
+    left: 390px;
+    height: 40px;
+    width: 60px;
+
+}
+
+#slotVuotoSpeciale {
+    position: relative;
+    top: -21px;
+    left: -1px;
+    height: 40px;
+    width: 60px;
+
+}
+
+#slotILS {
+    position: relative;
+    top: -81px;
+    left: 390px;
+    width: 90px;
+    height: 80px;
+    margin-inline-start: 0px;
+}
