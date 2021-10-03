@@ -12,6 +12,10 @@
 </head>
 <body>
     
+    <div onclick="returnHome()"class="Home">
+        <img src="images/home.png" id="home">
+        <a href=""></a>
+    </div>
     
     <div class="elementi">
         
@@ -173,6 +177,10 @@
         new Sortable(dragArea, {
           animation: 430
         });
+
+        function returnHome(){
+            window.open("/index.html", "_self")
+        }
       </script>
     
 </body>
