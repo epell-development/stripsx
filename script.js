@@ -5,5 +5,5 @@ function validate() {
     if(input==password) {
         window.open("pages/strips.html", "_self")
         
-    } else alert("Password not correct.")
+    } else alert("Password is not correct.")
 }
