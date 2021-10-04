@@ -237,3 +237,10 @@ body {
 #strisciaplus {
     display: none;
 }
+
+
+@media all and (max-width: 1400px) {
+    #dragimg {
+        right: 317px;
+    }
+}
