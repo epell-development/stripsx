@@ -211,22 +211,29 @@ body {
     margin-inline-start: 0px;
 }
 
-
-
-#home {
-    width: 26px;
-    position: fixed;
-    top: 80px;
+.HomeBtn {
+    margin: 10px 0px 0px 40px;
+    /*position: relative;*/
+    top: 100px;
     left: 40px;
-    cursor: pointer;
-    
-    
+    outline: none;
+    border: 1px solid white;
+    height: 44px;
+    width: 200px;
+    border-radius: 170px;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    transition: all .3s ease;
 }
 
-#home:hover {
+.HomeBtn:hover {
     cursor: pointer;
-    background-color: rgba(255, 255, 255, 0.459);
-    border-radius: 100px;
-    
-    
+    background-color: white;
+    color: rgb(41, 144, 204);
+}
+
+#strisciaplus {
+    display: none;
 }

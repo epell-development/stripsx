@@ -12,9 +12,7 @@
 </head>
 <body>
     
-    <div onclick="returnHome()"class="Home">
-        <img src="images/home.png" id="home">
-    </div>
+    <button onclick="returnHome()" class="HomeBtn">Return to Home</button>
 
     <img src="../images/logo.png" id="imgLogo">
     
@@ -154,6 +152,24 @@
         </div>
 
         <div class="strisciaPartenze">
+            <img src="images/drag.png" id="dragimg">
+            <input placeholder="ICAO" id="slotIcaoArpt" class="field" type="text">
+            <input placeholder="FL" id="slotFL" class="field" type="text">
+            <input placeholder="CALLSIGN" id="slotCallsign" class="field" type="text">
+            <input placeholder="PB TIME" id="slotVuoto1" class="field" type="text">
+            <input placeholder="TAXI TIME" id="slotVuoto1" class="field" type="text">
+            <input placeholder="" id="slotVuoto1" class="field" type="text">
+            <input placeholder="SID + IA" id="slotSID" class="field" type="text">
+            <br> 
+            <input placeholder="EDT" id="slotOrarioEstimato" class="field" type="text">
+            <input placeholder="RDT" id="slotOrarioEstimato" class="field" type="text">
+            <input placeholder="" id="slotOrarioEstimato" class="field" type="text">
+            <input placeholder="FLIGHT ROUTE" id="slotPLN" class="field" type="text">
+            <input placeholder="SQUAWK" id="slotSquak" class="field" type="text">
+
+        </div>
+
+        <div class="strisciaPartenze" id="strisciaplus">
             <img src="images/drag.png" id="dragimg">
             <input placeholder="ICAO" id="slotIcaoArpt" class="field" type="text">
             <input placeholder="FL" id="slotFL" class="field" type="text">

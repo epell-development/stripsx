@@ -7,3 +7,7 @@ function validate() {
         
     } else alert("Password is not correct.")
 }
+
+function Discord() {
+    window.open("https://discord.gg/4mMFEUqsmF")
+}

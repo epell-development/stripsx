@@ -47,7 +47,7 @@ input {
     color: white;
 }
 
-button {
+#logBtn {
     margin: 30px 0px 0px 0px;
     outline: none;
     border: 1px solid white;
@@ -62,7 +62,7 @@ button {
     transition: all .3s ease;
 }
 
-button:hover {
+#logBtn:hover {
     cursor: pointer;
     background-color: white;
     color: rgb(41, 144, 204);
@@ -104,4 +104,28 @@ button:hover {
     position: fixed;
     top: 20px;
     right: 40px;
+}
+
+#dsBtn {
+    position: absolute;
+    right: 77px;
+    top: 650px;
+    outline: none;
+    border: 1px solid white;
+    height: 44px;
+    width: 405px;
+    border-radius: 170px;
+    background-color: transparent;
+    /*background: linear-gradient(120deg, rgb(20, 104, 173), rgb(64, 161, 206) );*/
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    transition: all .3s ease;
+}
+
+#dsBtn:hover {
+    cursor: pointer;
+    background-color: #5865F2;
+    border: 1px solid #5865F2;
+    color: white;
 }
