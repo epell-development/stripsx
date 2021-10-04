@@ -97,3 +97,11 @@ button:hover {
 #imgD:hover {
     transform: scale(1.05);
 }
+
+#imgLogo {
+    width: 10%;
+    
+    position: fixed;
+    top: 20px;
+    right: 40px;
+}
