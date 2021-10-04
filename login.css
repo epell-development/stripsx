@@ -107,7 +107,7 @@ input {
 }
 
 #dsBtn {
-    position: absolute;
+    position: fixed;
     right: 77px;
     top: 650px;
     outline: none;
