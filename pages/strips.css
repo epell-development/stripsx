@@ -244,3 +244,10 @@ body {
         right: 317px;
     }
 }
+
+@media all and (max-width: 1100px) {
+    #dragimg {
+        right: 146px;
+        width: 16px;
+    }
+}
