@@ -3,6 +3,7 @@ function validate() {
     var password = "malpensa24"
     
     if(input==password) {
+        //Apre la finestra
         window.open("pages/strips.html", "_self")
         
     } else alert("Password is not correct.")
