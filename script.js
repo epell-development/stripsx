@@ -12,3 +12,4 @@ function validate() {
 function Discord() {
     window.open("https://discord.gg/4mMFEUqsmF")
 }
+

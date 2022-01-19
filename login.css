@@ -106,26 +106,4 @@ input {
     right: 40px;
 }
 
-#dsBtn {
-    position: fixed;
-    right: 77px;
-    top: 650px;
-    outline: none;
-    border: 1px solid white;
-    height: 44px;
-    width: 405px;
-    border-radius: 170px;
-    background-color: transparent;
-    /*background: linear-gradient(120deg, rgb(20, 104, 173), rgb(64, 161, 206) );*/
-    color: white;
-    font-weight: bold;
-    font-size: 17px;
-    transition: all .3s ease;
-}
 
-#dsBtn:hover {
-    cursor: pointer;
-    background-color: #5865F2;
-    border: 1px solid #5865F2;
-    color: white;
-}
